@@ -1,0 +1,95 @@
+:root {
+  --primary-color: #074483;
+  --light-primary: #B0C8DC;
+  --lightest-color: #e9ebd5;
+  --secondary-color: #67B2DD;
+  --light-secondary: #01A6AA;
+  }
+
+
+
+
+img{
+       
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px;
+        max-width: 100%;
+        height: auto;
+        
+        border-radius:  10px var(--primary-color); 
+       
+        justify-content:center;
+        align-items:center;
+        transition:.5s ease-in-out;
+      }
+      
+    
+      
+      .girar:last-child:hover{
+        rotate: 1.75turn;
+      
+}
+
+     
+      .girar {
+
+     border-radius: 20px;   
+     mix-blend-mode: multiply;
+     position: absolute;
+     background:var(--primary-color);
+     width: 150px;
+     height: 150px;
+     right: 5px; 
+     top: 5px;
+    }  
+    
+    p{
+      padding:2px;
+      color:white;
+      font-family:Century Gothic;
+      font-size: 20;
+      border-radius: 6px;
+      background: var(--primary-color);
+      width: 1082px;
+      height: 20px;
+    }
+      .pdf {
+
+    }
+ 
+  
+  @keyframes loading {
+    0% {
+        transform: rotate(0)
+    }
+    
+
+    50% {
+        transform: rotate(-360deg)
+        
+    }
+  }
+
+
+
+    a{
+      animation: loading 5s linear alternate-reverse ;
+  
+      position:relative;
+      
+      
+      mix-blend-mode: multiply;
+    
+      display:flex;
+     
+      
+      max-width: 8%;
+      
+     
+}
+   
+
+
+        
+    
