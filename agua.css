@@ -1,9 +1,17 @@
 
 .container1{
   width: 1087px;
-  height: 150px;
+  height: 200px;
   border-radius: 10px;
   background: linear-gradient(0, #021F59, #59B5D9);
+  
+}
+.container2{
+  width: 1087px;
+  height: 100px;
+  border-radius: 10px;
+  background: linear-gradient(0, #021F59, #59B5D9);
+  
 }
 
 .Nome{
@@ -11,8 +19,7 @@
   color: white;
   font-family:Century Gothic;
   text-align:left;
-  display: inline-block;
- 
+  display:inline-block;
   width: 1070px;
   height: 150px;
   
