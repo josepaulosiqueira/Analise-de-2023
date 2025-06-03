@@ -5,6 +5,7 @@
 
 
 
+
 :root {
   --primary-color: #074483;
   --light-primary: #B0C8DC;
@@ -12,23 +13,32 @@
   --secondary-color: #67B2DD;
   --light-secondary: #01A6AA;
   }
-  
-  .caldeiras, .hidrometros, .quimicos {
-    width: auto; /* Mantém o tamanho natural das imagens */
-    max-width: 100%; /* Evita que fiquem maiores que o contêiner */
-  
-}
+
+
+
+
 .icons {
   
- 
+  
   display: flex; /* Usa flexbox para um melhor controle */
   justify-content: flex-end; /* Alinha as imagens à esquerda */
   gap: 5px; /* Pequeno espaço entre as imagens */
-  padding: 10px;
+  padding: 30px;
+  
+  
 }
+.icons .caldeiras:hover {
 
+   -webkit-transform:scale(1.75);
+}
+.icons .hidrometros:hover {
 
+   -webkit-transform:scale(1.75);
+}
+.icons .quimicos:hover {
 
+   -webkit-transform:scale(1.75);
+}
 
 
 img{
@@ -105,11 +115,15 @@ img{
       
      
 }
+footer {
+
+
+  text-decoration: none;
+  color:var(--primary-color);
+  gap: 5px; /* Pequeno espaço entre as imagens */
+  padding: 5px 890px;
+}
    
-
-
-        
-    
 
 
         
