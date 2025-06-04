@@ -4,8 +4,10 @@
   height: 170px;
   border-radius: 10px;
   background: linear-gradient(0, #021F59, #59B5D9);
+
   
 }
+
 
 
 .Nome{
@@ -26,6 +28,7 @@ font-family:Century Gothic;
 text-align:center;
 transform: translate(-1%);
 font-size: 18;
+
 
 }
 h3{
