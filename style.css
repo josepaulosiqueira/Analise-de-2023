@@ -21,12 +21,40 @@
   
   
   display: flex; /* Usa flexbox para um melhor controle */
-  justify-content: flex-end; /* Alinha as imagens à esquerda */
-  gap: 5px; /* Pequeno espaço entre as imagens */
-  padding: 30px;
+ 
+  justify-content:space-between; /* Alinha as imagens à esquerda */
+  align-items: center;
+  gap: 2px; /* Pequeno espaço entre as imagens */
+  padding: 15px;
   
   
 }
+.icons p {
+
+  display: flex;
+  flex: 1;
+ 
+}
+ p{
+      display: flex;
+      
+      align-items:center;
+     
+      padding:4px;
+      background: -webkit-linear-gradient(#d9041616,#010326);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      font-family:Century Gothic;
+      font-size: 18px;
+      box-shadow:5px 10px #074483;
+   
+      border-radius: 6px;
+      
+   
+      width: max-content;
+      height: 30px;
+    }
+
 .icons .caldeiras:hover {
 
    -webkit-transform:scale(1.75);
@@ -77,17 +105,7 @@ img{
     object-fit: cover; /* ou "contain" dependendo do efeito desejado */
 }
     
-    p{
-      padding:2px;
-      color:white;
-      font-family:Century Gothic;
-      font-size: 20;
-      border-radius: 6px;
-      
-      background: var(--primary-color);
-      width: 1082px;
-      height: 20px;
-    }
+   
       
  
   
