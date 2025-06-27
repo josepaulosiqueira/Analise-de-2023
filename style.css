@@ -14,31 +14,51 @@
   --light-secondary: #01A6AA;
   }
 
-
-
-
-.icons {
-  
-  
-  display: flex; /* Usa flexbox para um melhor controle */
+.icons{
+   display: flex; 
+   justify-content:space-between;
+   align-items: center;
  
-  justify-content:space-between; /* Alinha as imagens à esquerda */
-  align-items: center;
-  gap: 2px; /* Pequeno espaço entre as imagens */
-  padding: 15px;
-  
-  
-}
-.icons p {
 
-  display: flex;
-  flex: 1;
+  }
+
+
+.iconsCab {
+  
+
+  display: flex; 
  
-}
+ 
+  justify-content:right;
+  align-items:end;
+  
+  grid-template-columns: repeat(3, auto);
+
+  gap:10px; /* Pequeno espaço entre as imagens */
+  
+  }
+ 
+  
+   b{
+    
+    display: flex;
+    align-content:space-between;
+
+     
+   
+  
+  
+  
+
+
+  }
+  
+
  p{
       display: flex;
+      row-gap: 1rem;
       
-      align-items:center;
+      align-items:stretch;
      
       padding:4px;
       background: -webkit-linear-gradient(#d9041616,#010326);
@@ -55,6 +75,8 @@
       height: 30px;
     }
 
+
+
 .icons .caldeiras:hover {
 
    -webkit-transform:scale(1.75);
@@ -66,15 +88,19 @@
 .icons .quimicos:hover {
 
    -webkit-transform:scale(1.75);
+
+
+
+  
 }
 
 
-img{
+img {
        
         display:flex;
         flex-wrap:wrap;
         gap:10px;
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
         
         border-radius:  10px var(--primary-color); 
@@ -104,7 +130,7 @@ img{
     height: 100%;
     object-fit: cover; /* ou "contain" dependendo do efeito desejado */
 }
-    
+
    
       
  
@@ -134,7 +160,7 @@ img{
       display:flex;
      
       
-      max-width: 8%;
+      max-width: 15%;
       
      
 }

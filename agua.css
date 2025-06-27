@@ -7,6 +7,14 @@
 
   
 }
+.container-insumo{
+  width: 1087px;
+  height: 60px;
+  border-radius: 10px;
+  background: linear-gradient(0, #021F59, #59B5D9);
+
+  
+}
 
 
 
@@ -41,6 +49,20 @@ font-size: 16;
 margin:10px;
 right: 120px;
 width: 900px;
+
+}
+h4{
+padding:12px;
+color:white;
+text-shadow: 0 0 10px #50E2F2, 0 0 20px #50E2F2;
+font-family:Century Gothic;
+font-size: 22px;
+text-align:center;
+
+
+
+
+
 
 }
 h2{
