@@ -58,13 +58,22 @@ text-shadow: 0 0 10px #50E2F2, 0 0 20px #50E2F2;
 font-family:Century Gothic;
 font-size: 22px;
 text-align:center;
+transition-property:color, text-shadow;
+transition-duration: 0.5s;
+transition-timing-function: ease-out;
 
+&:hover{
 
+ 
+ color:#D90416;
 
+ text-shadow: 0 -0.5px 10px #defdfb, 0 0.5px 20px #defdfb;
 
+ 
 
 
 }
+} 
 h2{
 padding:-4px;
 background: -webkit-linear-gradient(#D90416,#49e8e8e9);
