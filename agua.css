@@ -59,8 +59,8 @@ font-family:Century Gothic;
 font-size: 22px;
 text-align:center;
 transition-property:color, text-shadow;
-transition-duration: 0.5s;
-transition-timing-function: ease-out;
+transition-duration: 0.3s;
+transition-timing-function: ease-in;
 
 &:hover{
 
@@ -88,6 +88,27 @@ margin:-20px;
 width: 1087px;
 
 right:auto;
+}
+abbr{
+
+  font-family:Century Gothic;
+  font-size: 18px;
+  text-align:right;
+  
+  
+   
+  transition-property:color, font-size;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+
+ &:hover{
+
+    color:#d96e77;
+    font-size: 20px;
+  }
+
+
+
 }
 
 
